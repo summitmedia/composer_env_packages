@@ -1,0 +1,17 @@
+{
+  "name": "summitmedia/composer_env_packages",
+  "description": "Helper composer plugin for envs",
+  "type": "composer-plugin",
+  "license": "GPL-3.0-or-later",
+  "require": {
+    "composer-plugin-api": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PMG\\Composer\\": "src"
+    }
+  },
+  "extra": {
+    "class": "PMG\\Composer\\ComposerEnvPackages"
+  }
+}
